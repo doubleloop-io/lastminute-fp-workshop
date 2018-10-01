@@ -13,4 +13,8 @@ object MainTests extends SimpleTestSuite {
     }
     assertEquals(out.toString, "ciao!")
   }
+
+  test("ignore test with reason") {
+    ignore("test was ignored with a message")
+  }
 }

@@ -16,7 +16,6 @@ lazy val settings = Seq(
   scalacOptions ++= scalacSettings,
   resolvers ++= resolversSettings,
   libraryDependencies ++= libsSettings,
-  scalafmtOnCompile := true,
   testFrameworks += new TestFramework("minitest.runner.Framework"),
   addCompilerPlugin("com.olegpy"     %% "better-monadic-for" % "0.2.4"),
   addCompilerPlugin("org.spire-math" %% "kind-projector"     % "0.9.8"),
