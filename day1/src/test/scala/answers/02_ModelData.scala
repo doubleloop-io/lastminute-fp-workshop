@@ -37,6 +37,11 @@ object ModelData extends SimpleTestSuite {
   case class On()  extends LightState
   case class Off() extends LightState
 
+  // More complex ADT
+  sealed trait List[A]
+  final case class Nil[A]()                        extends List[A]
+  final case class Cons[A](head: A, tail: List[A]) extends List[A]
+
   /*
    * TODO: Model Scopa the italian card game :-)
    *       It is played (let simplify) between two players with
