@@ -11,10 +11,8 @@ object MainTests extends SimpleTestSuite {
     Console.withOut(out) {
       Main.main(Array())
     }
-    assertEquals(out.toString, "ciao!")
-  }
-
-  test("ignore test with reason") {
-    ignore("test was ignored with a message")
+    val expected = """Hi,
+                     |to everybody!""".stripMargin
+    assertEquals(out.toString, expected)
   }
 }
