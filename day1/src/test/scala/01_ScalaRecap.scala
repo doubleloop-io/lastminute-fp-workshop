@@ -11,16 +11,18 @@ import minitest._
  * - Trait as interface/mixin
  * - Implicit parameter
  * - Extension class
- *
- * TODO: one test at a time,
- *       read `ignore()` description
- *       uncomment the code,
- *       and add the code to get a green test
  */
 
 object ScalaRecap extends SimpleTestSuite {
 
-  // ADD YOUR CODE HERE
+  /*
+   * TODO: one test at a time,
+   *       read `ignore()` description
+   *       uncomment the code,
+   *       and add the code to get a green test
+   *
+   * ADD YOUR CODE HERE INSIDE THE OBJECT
+   */
 
   test("define case class") {
     ignore("define a case class w/ two fiel: name and age")

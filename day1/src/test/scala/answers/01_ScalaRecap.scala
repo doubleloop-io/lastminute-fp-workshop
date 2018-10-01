@@ -16,6 +16,15 @@ import minitest._
 
 object ScalaRecap extends SimpleTestSuite {
 
+  /*
+   * TODO: one test at a time,
+   *       read `ignore()` description
+   *       uncomment the code,
+   *       and add the code to get a green test
+   *
+   * ADD YOUR CODE HERE INSIDE THE OBJECT
+   */
+
   trait Fruit {
     def eatenBy(name: String): String =
       s"${name} ate ${stringify}"
