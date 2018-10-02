@@ -1,3 +1,7 @@
+addCommandAlias("fm", "all compile:scalafmt test:scalafmt")
+addCommandAlias("fx", "all compile:scalafix test:scalafix")
+addCommandAlias("t", "test")
+
 lazy val global = project
   .in(file("."))
   .settings(settings)
@@ -16,8 +20,6 @@ lazy val settings = Seq(
   scalacOptions ++= scalacSettings,
   resolvers ++= resolversSettings,
   libraryDependencies ++= libsSettings,
-  commands += ffCommand,
-  commands += ttCommand,
   testFrameworks += new TestFramework("minitest.runner.Framework"),
   addCompilerPlugin("com.olegpy"     %% "better-monadic-for" % "0.2.4"),
   addCompilerPlugin("org.spire-math" %% "kind-projector"     % "0.9.8"),
@@ -71,11 +73,3 @@ lazy val libsSettings = Seq(
   "com.github.mpilquist"       %% "simulacrum"    % "0.13.0",
   "io.monix"                   %% "minitest"      % "2.1.1" % Test
 )
-
-lazy val ffCommand = Command.command("f") { state =>
-  ";scalafix;scalafmt;test:scalafix;test:scalafmt" :: state
-}
-
-lazy val ttCommand = Command.command("t") { state =>
-  "test" :: state
-}
