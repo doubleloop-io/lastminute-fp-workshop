@@ -1,5 +1,5 @@
 -Dfile.encoding=UTF8
--Xms3784m
--Xmx3784m
+-Xss8m
+-Xms1G
+-Xmx8G
 -XX:MaxMetaspaceSize=1g
--Xss4m
