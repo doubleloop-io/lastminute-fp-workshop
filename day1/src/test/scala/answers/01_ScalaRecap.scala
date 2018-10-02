@@ -11,7 +11,7 @@ import minitest._
  * - Trait as interface/mixin
  * - Implicit parameter
  * - Extension class
- *
+ * - Pattern match
  */
 
 object ScalaRecap extends SimpleTestSuite {
@@ -48,6 +48,7 @@ object ScalaRecap extends SimpleTestSuite {
     def makeYounger(implicit value: Int): Person =
       copy(age = age - value)
   }
+
   object Person {
     def apply(value: String): Person =
       create(value)
@@ -56,6 +57,14 @@ object ScalaRecap extends SimpleTestSuite {
       val tokens = value.split(",")
       Person(tokens(0).trim, tokens(1).trim.toInt)
     }
+
+    def isFake(p: Person): Boolean =
+      p match {
+        case Person("foo", _)            => true
+        case Person("bar", _)            => true
+        case Person(_, age) if (age < 0) => true
+        case _                           => false
+      }
   }
 
   implicit class PersonOps(p: Person) {
@@ -123,5 +132,13 @@ object ScalaRecap extends SimpleTestSuite {
     val p      = Person("foo", 56)
     val result = p.toMap
     assertEquals(result, Map("name" -> "foo", "age" -> "56"))
+  }
+
+  test("pattern match") {
+    import Person._
+    assert(isFake(Person("foo", 10)))
+    assert(isFake(Person("bar", 10)))
+    assert(isFake(Person("matte", -10)))
+    assert(!isFake(Person("matte", 10)))
   }
 }

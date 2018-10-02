@@ -11,6 +11,7 @@ import minitest._
  * - Trait as interface/mixin
  * - Implicit parameter
  * - Extension class
+ * - Pattern match
  */
 
 object ScalaRecap extends SimpleTestSuite {
@@ -91,5 +92,18 @@ object ScalaRecap extends SimpleTestSuite {
     // val p      = Person("foo", 56)
     // val result = p.toMap
     // assertEquals(result, Map("name" -> "foo", "age" -> "56"))
+  }
+
+  test("pattern match") {
+    ignore("add a function to Person object that...")
+    // import Person._
+    ignore("...return true when name is foo")
+    // assert(isFake(Person("foo", 10)))
+    ignore("...return true when name is bar")
+    // assert(isFake(Person("bar", 10)))
+    ignore("...return true when age is negative")
+    // assert(isFake(Person("matte", -10)))
+    ignore("...otherwise return false")
+    // assert(!isFake(Person("matte", 10)))
   }
 }
