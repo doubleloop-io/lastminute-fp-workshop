@@ -12,7 +12,7 @@ object PatternMatchDispatch extends SimpleTestSuite {
    *
    */
 
-  sealed trait Direction {
+  trait Direction {
     def turnRight: Direction
     def turnLeft: Direction
   }
