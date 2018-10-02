@@ -31,6 +31,27 @@ object PatternMatchDispatch extends SimpleTestSuite {
   case class W() extends Direction
   case class S() extends Direction
 
+  // Alternative style, same implementation
+  // but place it in the companion object
+  object Direction {
+
+    def turnRight(current: Direction): Direction =
+      current match {
+        case N() => E()
+        case E() => S()
+        case S() => W()
+        case W() => N()
+      }
+
+    def turnLeft(current: Direction): Direction =
+      current match {
+        case N() => W()
+        case W() => S()
+        case S() => E()
+        case E() => N()
+      }
+  }
+
   test("turn right") {
     assertEquals(N().turnRight, E())
     assertEquals(E().turnRight, S())
