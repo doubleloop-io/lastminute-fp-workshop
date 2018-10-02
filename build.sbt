@@ -31,17 +31,26 @@ lazy val scalacSettings = Seq(
   "-deprecation",
   "-unchecked",
   "-feature",
+  "-explaintypes",
+  "-opt-warnings",
   "-language:existentials",
   "-language:higherKinds",
-  "-language:implicitConversions",
+  "-opt:l:inline",
+  "-opt-inline-from:<source>",
   "-Ypartial-unification",
   "-Yrangepos",
-  "-Xlint",
   "-Yno-adapted-args",
   "-Ywarn-numeric-widen",
   "-Ywarn-value-discard",
-  "-Xfuture",
-  "-Ywarn-unused-import"
+  "-Ywarn-extra-implicit",
+  "-Ywarn-inaccessible",
+  "-Ywarn-infer-any",
+  "-Ywarn-nullary-override",
+  "-Ywarn-nullary-unit",
+  "-Ywarn-unused:_,-imports",
+  "-Xsource:2.13",
+  "-Xlint:_,-type-parameter-shadow",
+  "-Xfuture"
 )
 
 lazy val resolversSettings = Seq(
@@ -63,10 +72,10 @@ lazy val libsSettings = Seq(
   "io.monix"                   %% "minitest"      % "2.1.1" % Test
 )
 
-lazy val ffCommand = Command.command("ff") { state =>
+lazy val ffCommand = Command.command("f") { state =>
   ";scalafix;scalafmt;test:scalafix;test:scalafmt" :: state
 }
 
-lazy val ttCommand = Command.command("tt") { state =>
+lazy val ttCommand = Command.command("t") { state =>
   "test" :: state
 }
