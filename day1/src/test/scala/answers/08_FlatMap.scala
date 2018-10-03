@@ -60,6 +60,20 @@ object FlatMapTests extends SimpleTestSuite {
     assertEquals(result, Success("1"))
   }
 
+  test("for-comprehension") {
+    val program: String => Try[String] =
+      s =>
+        for {
+          n  <- toi(s)
+          n1 = dec(n)
+          n2 <- divTry(n1)
+          s1 = tos(n2)
+        } yield s1
+
+    val result = program("10")
+    assertEquals(result, Success("1"))
+  }
+
   test("fail safe - on first operaton") {
     val program: String => Try[String] =
       s => toi(s).map(dec).flatMap(divTry).map(tos)
