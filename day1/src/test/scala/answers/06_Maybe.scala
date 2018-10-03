@@ -55,4 +55,19 @@ object MaybeTests extends SimpleTestSuite {
     assertEquals(toQty_II(""), Nope())
     assertEquals(toQty_II("-10"), Nope())
   }
+
+  def toQty_III(value: String): Option[Qty] =
+    if (value.matches("^[0-9]+$")) Some(Qty(value.toInt))
+    else None
+
+  test("valid qty") {
+    assertEquals(toQty_III("100"), Some(Qty(100)))
+  }
+
+  test("invalid qty") {
+    assertEquals(toQty_III("asd"), None)
+    assertEquals(toQty_III("1 0 0"), None)
+    assertEquals(toQty_III(""), None)
+    assertEquals(toQty_III("-10"), None)
+  }
 }
