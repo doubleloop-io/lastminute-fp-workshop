@@ -48,6 +48,7 @@ object MapTests extends SimpleTestSuite {
     n => n.toString
 
   test("chain one function") {
+    ignore("use toiTry instead of toi")
     val program: String => Int =
       toi.andThen(dec)
 
@@ -55,11 +56,8 @@ object MapTests extends SimpleTestSuite {
     assertEquals(result, 9)
   }
 
-  test("[Try] - chain one function") {
-    ignore("rewrite the previous test, use toiTry")
-  }
-
   test("chain two functions") {
+    ignore("use toiTry instead of toi")
     val program: String => String =
       toi.andThen(dec).andThen(tos)
 
@@ -67,20 +65,13 @@ object MapTests extends SimpleTestSuite {
     assertEquals(result, "9")
   }
 
-  test("[Try] - chain two functions") {
-    ignore("rewrite the previous test, use toiTry")
-  }
-
   test("fail") {
+    ignore("use toiTry instead of toi")
     val program: String => String =
       toi.andThen(dec).andThen(tos)
 
     intercept[NotAnIntException] {
       program("foo"); ()
     }
-  }
-
-  test("[Try] - fail") {
-    ignore("rewrite the previous test, use toiTry")
   }
 }
