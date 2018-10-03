@@ -9,7 +9,6 @@ object PatternMatchDispatch extends SimpleTestSuite {
    *       from polymorphic dispatch (a fundamental OOP technique)
    *       to pattern match dispatch.
    *       Keep tests green.
-   *
    */
 
   sealed trait Direction {

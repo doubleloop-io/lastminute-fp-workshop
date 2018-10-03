@@ -24,7 +24,6 @@ import minitest._
  *                 Useful to model dipendant data in OR e.g. the Light is on *or* off.
  *
  * We can mix ADT as we want, like a product type that compose a type with a sum type.
- *
  */
 
 object ModelData extends SimpleTestSuite {

@@ -10,13 +10,12 @@ import minitest._
  * Functions are described/documented by it's type definition.
  *
  *  f:  InType => OutType
- *
  */
+
 object FunctionsTests extends SimpleTestSuite {
 
   /*
-   * TODO: implement reciprocalString
-   *
+   * TODO: implements functions maked with `???`
    */
 
   val asString: Double => String = in => in.toString
