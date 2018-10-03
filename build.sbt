@@ -1,6 +1,7 @@
 addCommandAlias("fm", "all compile:scalafmt test:scalafmt")
 addCommandAlias("fx", "all compile:scalafix test:scalafix")
 addCommandAlias("t", "test")
+addCommandAlias("to", "testOnly")
 
 lazy val global = project
   .in(file("."))
