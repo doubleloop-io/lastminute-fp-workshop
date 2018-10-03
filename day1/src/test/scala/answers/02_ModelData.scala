@@ -36,19 +36,6 @@ object ModelData extends SimpleTestSuite {
   case class On()  extends LightState
   case class Off() extends LightState
 
-  /*
-   * TODO: Model Scopa the italian card game :-)
-   *       It is played (let simplify) between two players with
-   *       a standard Italian 40-card deck, divided into four suits: Cups, Golds, Swords, Clubs.
-   *       mostly or four in two partnerships.
-   *       The values on the cards range numerically from one through seven,
-   *       plus three face cards in each suit: Knight (worth 8), Queent (worth 9) and King (worth 10).
-   *       All players arrange themselves around the playing surface.
-   *       Each player receives three cards. The dealer will also place four cards face up on the table.
-   *
-   * ADD YOUR CODE HERE INSIDE THE OBJECT
-   */
-
   sealed trait Suit
   case object Cups   extends Suit
   case object Golds  extends Suit

@@ -14,10 +14,6 @@ import minitest._
 
 object FunctionsTests extends SimpleTestSuite {
 
-  /*
-   * TODO: implements functions maked with `???`
-   */
-
   val asString: Double => String = in => in.toString
 
   val parseString: String => Int = in => in.toInt

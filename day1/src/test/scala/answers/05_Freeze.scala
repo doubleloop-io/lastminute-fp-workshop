@@ -26,10 +26,6 @@ import minitest._
 
 object FreezeTests extends SimpleTestSuite {
 
-  /*
-   * TODO: implements functions maked with `???`
-   */
-
   object Immediate {
 
     def plus(x: Int, y: Int): Int =

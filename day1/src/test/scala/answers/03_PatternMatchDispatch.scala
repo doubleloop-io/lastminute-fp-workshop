@@ -4,13 +4,6 @@ import minitest._
 
 object PatternMatchDispatch extends SimpleTestSuite {
 
-  /*
-   * TODO: rewrite the dispatch logic
-   *       from polymorphic dispatch (a fundamental OOP technique)
-   *       to pattern match dispatch.
-   *       Keep tests green.
-   */
-
   sealed trait Direction {
     def turnRight: Direction = this match {
       case N() => E()

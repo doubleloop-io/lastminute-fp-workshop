@@ -13,10 +13,6 @@ import minitest._
 
 object MaybeTests extends SimpleTestSuite {
 
-  /*
-   * TODO: remove all nulls
-   */
-
   sealed trait MaybeQty
   case class ValidQty(value: Qty) extends MaybeQty
   case class InvalidQty()         extends MaybeQty
