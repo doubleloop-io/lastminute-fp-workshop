@@ -1,4 +1,4 @@
-package day1
+package exercises.answers
 
 import minitest._
 
@@ -33,8 +33,7 @@ object FoldTests extends SimpleTestSuite {
     val program: String => Try[String] =
       s => toi(s).map(dec).flatMap(div).map(tos)
 
-    ignore("use getOrElse to remove the Try effect")
-    val result = program("10")
+    val result = program("10").getOrElse("42")
     assertEquals(result, "1")
   }
 
@@ -42,8 +41,7 @@ object FoldTests extends SimpleTestSuite {
     val program: String => Try[String] =
       s => toi(s).map(dec).flatMap(div).map(tos)
 
-    ignore("use getOrElse to remove the Try effect")
-    val result = program("1")
+    val result = program("1").getOrElse("zero")
     assertEquals(result, "zero")
   }
 
@@ -51,8 +49,7 @@ object FoldTests extends SimpleTestSuite {
     val program: String => Try[String] =
       s => toi(s).map(dec).flatMap(div).map(tos)
 
-    ignore("use fold to remove the Try effect")
-    val result = program("1")
+    val result = program("1").fold(ex => ex.getMessage, v => v)
     assertEquals(result, DivByZeroException().getMessage)
   }
 }

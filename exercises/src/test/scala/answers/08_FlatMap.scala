@@ -1,4 +1,4 @@
-package day1.answers
+package exercises.answers
 
 import minitest._
 

@@ -1,4 +1,4 @@
-package day1.answers
+package exercises
 
 import minitest._
 
@@ -23,14 +23,23 @@ import minitest._
 
 object MapTests extends SimpleTestSuite {
 
+  /*
+   * TODO: Implements toiTry function.
+   *       Use the Try effect instead of throws.
+   *       After that implement ignored tests.
+   */
+
   import scala.util.{Failure, Success, Try}
 
   case class NotAnIntException(s: String) extends RuntimeException(s"not an int: $s")
 
-  val toiTry: String => Try[Int] =
+  val toi: String => Int =
     s =>
-      if (s.matches("^[0-9]+$")) Success(s.toInt)
-      else Failure(NotAnIntException(s))
+      if (s.matches("^[0-9]+$")) s.toInt
+      else throw NotAnIntException(s)
+
+  val toiTry: String => Try[Int] =
+    s => ???
 
   val dec: Int => Int =
     n => n - 1
@@ -39,36 +48,30 @@ object MapTests extends SimpleTestSuite {
     n => n.toString
 
   test("chain one function") {
-    val program: String => Try[Int] =
-      s => toiTry(s).map(dec)
+    ignore("use toiTry instead of toi")
+    val program: String => Int =
+      toi.andThen(dec)
 
     val result = program("10")
-    assertEquals(result, Success(9))
+    assertEquals(result, 9)
   }
 
   test("chain two functions") {
-    val program: String => Try[String] =
-      s => toiTry(s).map(dec).map(tos)
+    ignore("use toiTry instead of toi")
+    val program: String => String =
+      toi.andThen(dec).andThen(tos)
 
     val result = program("10")
-    assertEquals(result, Success("9"))
+    assertEquals(result, "9")
   }
 
-  test("fail safe") {
-    val program: String => Try[String] =
-      s => toiTry(s).map(dec).map(tos)
+  test("fail") {
+    ignore("use toiTry instead of toi")
+    val program: String => String =
+      toi.andThen(dec).andThen(tos)
 
-    val result = program("foo")
-    assertEquals(result, Failure(NotAnIntException("foo")))
-  }
-
-  test("fail unsafe") {
-    val program: String => Try[String] =
-      s => toiTry(s).map(dec).map(tos)
-
-    val result = program("foo")
     intercept[NotAnIntException] {
-      result.get; ()
+      program("foo"); ()
     }
   }
 }

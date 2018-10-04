@@ -1,4 +1,4 @@
-package day1.answers
+package exercises
 
 import minitest._
 
@@ -15,6 +15,11 @@ import minitest._
 
 object ErrorHandlingTests extends SimpleTestSuite {
 
+  /*
+   * TODO: remove ignores and
+   *       implements functions maked with `???`
+   */
+
   test("Option - dynamic style") {
     def compute(value: Int): Option[Int] =
       if (value > 0) Some(value * 2)
@@ -22,9 +27,8 @@ object ErrorHandlingTests extends SimpleTestSuite {
 
     val value = compute(-10)
 
-    intercept[Exception] {
-      value.get; ()
-    }
+    ignore("remove me, run test watch why fails and make it green")
+    value.get; ()
   }
 
   test("Try - dynamic style") {
@@ -36,9 +40,8 @@ object ErrorHandlingTests extends SimpleTestSuite {
 
     val value = compute(-10)
 
-    intercept[Exception] {
-      value.get; ()
-    }
+    ignore("remove me, run test watch why fails and make it green")
+    value.get; ()
   }
 
   test("Either - static style") {
@@ -51,6 +54,7 @@ object ErrorHandlingTests extends SimpleTestSuite {
 
     val value = compute(-10)
 
+    ignore("remove me, run test watch why fails and make it green")
     value.left.get; ()
   }
 
@@ -65,9 +69,8 @@ object ErrorHandlingTests extends SimpleTestSuite {
 
     val value = compute(-10)
 
-    intercept[Exception] {
-      Await.result(value, 2.seconds); ()
-    }
+    ignore("remove me, run test watch why fails and make it green")
+    Await.result(value, 2.seconds); ()
   }
 
   test("IO - dynamic style") {
@@ -80,17 +83,17 @@ object ErrorHandlingTests extends SimpleTestSuite {
 
     val value = compute(-10)
 
-    intercept[Exception] {
-      value.unsafeRunSync(); ()
-    }
+    ignore("remove me, run test watch why fails and make it green")
+    value.unsafeRunSync(); ()
   }
 
   test("convert from Either to Option") {
     sealed trait AppError
     case class BadParam() extends AppError
 
+    ignore("implement convert function")
     def convert[E, A](e: Either[E, A]): Option[A] =
-      e.fold(_ => None, a => Some(a))
+      ???
 
     assertEquals(convert(Right("foo")), Some("foo"))
     assertEquals(convert(Left(BadParam)), None)
@@ -101,8 +104,9 @@ object ErrorHandlingTests extends SimpleTestSuite {
 
     case class BadParamException() extends RuntimeException("bad param")
 
+    ignore("implement convert function")
     def convert[A](t: Try[A]): Either[Throwable, A] =
-      t.fold(ex => Left(ex), a => Right(a))
+      ???
 
     assertEquals(convert(Success("foo")), Right("foo"))
     assertEquals(convert(Failure(BadParamException())), Left(BadParamException()))

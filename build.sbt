@@ -6,11 +6,11 @@ addCommandAlias("to", "testOnly")
 lazy val global = project
   .in(file("."))
   .settings(settings)
-  .aggregate(day1)
+  .aggregate(exercises)
 
-lazy val day1 = project
+lazy val exercises = project
   .settings(
-    name := "day1",
+    name := "exercises",
     settings
   )
 

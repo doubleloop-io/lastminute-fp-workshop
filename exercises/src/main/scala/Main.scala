@@ -1,4 +1,4 @@
-package day1
+package exercises
 
 object Main extends App {
   println("Hello!")
