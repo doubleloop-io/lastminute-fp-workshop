@@ -2,15 +2,23 @@ addCommandAlias("fm", "all compile:scalafmt test:scalafmt")
 addCommandAlias("fx", "all compile:scalafix test:scalafix")
 addCommandAlias("t", "test")
 addCommandAlias("to", "testOnly")
+addCommandAlias("ps", "projects")
+addCommandAlias("p", "project")
 
 lazy val global = project
   .in(file("."))
   .settings(settings)
-  .aggregate(exercises)
+  .aggregate(exercises, gameapp)
 
 lazy val exercises = project
   .settings(
     name := "exercises",
+    settings
+  )
+
+lazy val gameapp = project
+  .settings(
+    name := "game-app",
     settings
   )
 
