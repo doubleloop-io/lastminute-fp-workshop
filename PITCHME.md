@@ -148,17 +148,6 @@ functions get an @color[IndianRed](extraordinary quality) boost:
 ### mathematicians do 
 ### @color[IndianRed](refactor their "code")
 ### since long before us
-```scala
-// distributive law
-
-x * (y + z) == (x * y) + (x * z)
-```
-
----
-## @color[GoldenRod](pssss...)
-### mathematicians do 
-### @color[IndianRed](refactor their "code")
-### since long before us
 `\[
 x(y + z) = (xy) + (xz) 
 \]`
