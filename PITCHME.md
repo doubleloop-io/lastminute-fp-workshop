@@ -54,10 +54,6 @@
 ## mainly @color[GoldenRod](focuses on)
 
 ---
-## Complex System
-developers dedicate a significant portion of code and effort to such composition
-
----
 ## Functional Programming
 @color[GoldenRod](compose functions) as a central<br />
 building block to write software
@@ -72,9 +68,10 @@ val fromS: String => Int =
 val toAndFrom: Int => Int = 
   fromS compose toS
 ```
-@[1-2](from Int to String)
-@[4-5](from String to Int)
-@[7-8](compose them)
+
+---
+## Complex System
+developers dedicate a significant portion of code and effort to such composition
 
 ---
 
