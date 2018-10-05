@@ -75,7 +75,7 @@ building block to write software
 ## side-effects
 
 ---
-## Hard composition
+## can't composition
 ```scala
 val toS : Int => String = n => {
   appendAll("log.txt", "some content")
