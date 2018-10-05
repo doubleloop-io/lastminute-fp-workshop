@@ -115,7 +115,7 @@ see “function” as the @color[IndianRed](mathematical) one:
 
 ---
 ## We earn back
-that all functions become @color[GoldenRod](referentially transparent)
+all functions become @color[GoldenRod](referentially transparent)
 
 ---
 ## Referential Transparency
