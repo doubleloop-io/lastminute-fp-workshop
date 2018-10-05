@@ -149,5 +149,7 @@ functions get an @color[IndianRed](extraordinary quality) boost:
 ### @color[IndianRed](refactor their "code")
 ### since long before us
 ```scala
-x * (y + z) == (x * y) + (x * z) //distributive law
+// distributive law
+
+x * (y + z) == (x * y) + (x * z)
 ```
