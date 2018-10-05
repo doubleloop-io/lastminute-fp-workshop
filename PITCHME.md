@@ -76,7 +76,7 @@
 ## side-effects
 
 ---
-## it can't compose well
+## it can't compose
 ```scala
 val toS : Int => String = n => {
   appendAll("log.txt", "some content")
@@ -85,7 +85,7 @@ val toS : Int => String = n => {
 ```
 
 ---
-## it can't compose well
+## it can't compose
 ```scala
 val list = collection.mutable.ListBuffer[Int]()
 
@@ -107,8 +107,8 @@ val toS : Int => String = n => {
 FP is about @color[IndianRed](eliminating) or @color[GoldenRod](controlling) side-effects
 
 ---
-## Functional Programming
-the term “function” refer to the @color[IndianRed](mathematical) one:
+## How?
+see “function” as the @color[IndianRed](mathematical) one:
 - @color[GoldenRod](Total): it must yield a value for every possible input
 - @color[GoldenRod](Deterministic): it must yield the same value for the same input
 - @color[GoldenRod](Pure): it’s only effect must be the computation of its return value
