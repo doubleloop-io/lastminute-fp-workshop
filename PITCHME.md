@@ -64,8 +64,8 @@
 
 ---
 ## True Story
-### In Complex System devs dedicate 
-### a significant portion of code and effort 
+### In Complex System we dedicate a significant 
+### portion of code and effort 
 ### to such composition
 
 ---
