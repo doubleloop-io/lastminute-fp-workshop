@@ -36,7 +36,6 @@
 # Why functional programming?
 
 ---
-## In one word
 ## @color[GoldenRod](composition)
 
 ---
