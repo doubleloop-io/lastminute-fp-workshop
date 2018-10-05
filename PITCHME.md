@@ -19,9 +19,9 @@
 ## what you know today
 
 ---
-## think how your life 
+## @color[GoldenRod](think how your life)
 ## would have been different 
-## if we had always 
+## @color[IndianRed](if we had always)
 ## programmed like that
 
 ---
