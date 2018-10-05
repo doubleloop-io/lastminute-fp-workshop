@@ -153,11 +153,12 @@ functions get an @color[IndianRed](extraordinary quality) boost:
 
 x * (y + z) == (x * y) + (x * z)
 ```
+
 ---
-
-##### The Cauchy-Schwarz Inequality
-
+## @color[GoldenRod](pssss...)
+### mathematicians do 
+### @color[IndianRed](refactor their "code")
+### since long before us
 `\[
-\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
- \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+$h \circ (f \circ g) = (h \circ f) \circ g$
 \]`
