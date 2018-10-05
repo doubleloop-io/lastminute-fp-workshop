@@ -9,7 +9,8 @@
 ## from a fp workshop?
 
 ---
-## It's a bit like learning to program again
+## It's a bit like 
+## @color[GoldenRod](learn) to program @color[IndianRed](again)
 
 ---
 ## try to do not judge what you will see with the eyes of what you know today
