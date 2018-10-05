@@ -50,8 +50,8 @@
 > Decomposition wouldn’t make sense if we weren’t able to put the pieces back together. - Bartosz Milewski
 
 ---
-## Composition
-This is where Functional Programming  mainly @color[GoldenRod](focuses on)
+## Composition is where Functional 
+## Programming  mainly @color[GoldenRod](focuses on)
 
 ---
 ## Complex System
