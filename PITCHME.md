@@ -1,4 +1,4 @@
-# What is functional programming?
+# Why functional programming?
 
 ---
 ## before to jump on that...
@@ -25,7 +25,11 @@
 ## let's get back to the starting point
 
 ---
-# What is functional programming?
+# Why functional programming?
+
+---
+> And how do we solve problems? We decompose bigger problems into smaller problems. If the smaller problems are still too big, we decompose them further, and so on. Finally, we write code that solves all the small problems. And then comes the essence of programming: we compose those pieces of code to create solutions to larger problems. Decomposition wouldn’t make sense if we weren’t able to put the pieces back together.
+> - Bartosz Milewski
 
 ---
 ## Functional Programming
@@ -46,9 +50,14 @@ val toAndFrom: Int => Int =
 @[4-5](from String to Int)
 @[7-8](compose them)
 
+--- 
+
+
+
+
 ---
-## Pure Functional Programming
-the termt “function” refer to the @color[IndianRed](mathematical) one
+## Functional Programming
+the term “function” refer to the @color[IndianRed](mathematical) one:
 - @color[GoldenRod](Total): it must yield a value for every possible input
 - @color[GoldenRod](Deterministic): it must yield the same value for the same input
 - @color[GoldenRod](Pure): it’s only effect must be the computation of its return value
@@ -76,7 +85,7 @@ val toS : Int => String = n => {
 
 ---
 ## In other words
-pure FP is about @color[IndianRed](eliminating) or @color[GoldenRod](controlling) side-effects
+FP is about @color[IndianRed](eliminating) or @color[GoldenRod](controlling) side-effects
 ```scala
 // pure (function w/out side-effect)
 val f: A => B = ...
@@ -94,6 +103,7 @@ val g: A => F[B] = ...
 - hide inputs and outputs
 - destroy testability
 - destroy composability
+
 
 ---
 ## We earn back
