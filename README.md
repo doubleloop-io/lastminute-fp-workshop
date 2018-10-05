@@ -9,5 +9,11 @@
 ### Monix Minitest
 [https://github.com/monix/minitest](https://github.com/monix/minitest)
 
+### Cats
+[https://github.com/typelevel/cats](https://github.com/typelevel/cats)
 
+### Cats-Effect
+[https://github.com/typelevel/cats-effect](https://github.com/typelevel/cats-effect)
 
+### Impurepics
+[https://impurepics.com/](https://impurepics.com/)
