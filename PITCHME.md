@@ -13,7 +13,10 @@
 ## @color[GoldenRod](learn) to program @color[IndianRed](again)
 
 ---
-## try to do not judge what you will see with the eyes of what you know today
+## do not judge 
+## what you will see 
+## with the eyes of 
+## what you know today
 
 ---
 ## try to think how your life would have been different if we had always programmed like that
@@ -142,7 +145,7 @@ functions get an @color[IndianRed](extraordinary quality) boost:
 - easier to @color[GoldenRod](test)
 
 ---
-## closing
+## PS
 mathematicians do refactor the "code"<br />
 since long before us
 ```
