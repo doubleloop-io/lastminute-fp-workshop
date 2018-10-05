@@ -25,12 +25,10 @@
 ## programmed like that
 
 ---
-## We need a @color[GoldenRod](place) and @color[GoldenRod](time)
+## take this workashop as
+## a @color[GoldenRod](place) and @color[GoldenRod](time)
 ## to @color[IndianRed](experiment) and @color[IndianRed](fail)
 ## spectacularly
-
----
-## This workshop is that @color[GoldenRod](place)
 
 ---
 ## @color[GoldenRod](free) your @color[IndianRed](mind)
