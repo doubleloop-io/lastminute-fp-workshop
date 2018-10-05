@@ -70,7 +70,7 @@
 ### @color[GoldenRod](to such composition)
 
 ---
-## who is the number one enemy of the composition?
+## @color[GoldenRod](who) is the number one @color[IndianRed](enemy) of composition?
 
 ---
 ## side-effects
