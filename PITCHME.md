@@ -41,8 +41,8 @@
 
 ---
 ## Functional Programming
-@color[GoldenRod](compose functions) as a central<br />
-building block to write software
+### @color[GoldenRod](compose functions) as a central
+### building block to write software
 
 ---
 # why is the composition so important?
