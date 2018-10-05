@@ -160,5 +160,5 @@ x * (y + z) == (x * y) + (x * z)
 ### @color[IndianRed](refactor their "code")
 ### since long before us
 `\[
-h * (f + g) = (h * ) + (f * g) 
+x * (y + z) = (x * y) + (x * z) 
 \]`
