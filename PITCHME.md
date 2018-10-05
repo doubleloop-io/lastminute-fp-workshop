@@ -26,10 +26,6 @@
 
 ---
 # What is functional programming?
----
-# @color[GoldenRod](Pure)
-# Functional
-# @color[IndianRed](Programming)
 
 ---
 ## Functional Programming
@@ -52,7 +48,7 @@ val toAndFrom: Int => Int =
 
 ---
 ## Pure Functional Programming
-in this context “function” refer to the @color[IndianRed](mathematical) one
+the termt “function” refer to the @color[IndianRed](mathematical) one
 - @color[GoldenRod](Total): it must yield a value for every possible input
 - @color[GoldenRod](Deterministic): it must yield the same value for the same input
 - @color[GoldenRod](Pure): it’s only effect must be the computation of its return value
