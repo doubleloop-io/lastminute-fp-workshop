@@ -1,5 +1,5 @@
-# Why
-# @color[GoldenRod](functional programming)?
+# @color[GoldenRod](Why)
+# functional programming?
 
 ---
 ## before to jump on that...
