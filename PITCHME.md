@@ -41,12 +41,11 @@
 
 ---
 ## Functional Programming
-##     
 ### @color[GoldenRod](compose functions) as a central
 ### building block to write software
 
 ---
-# why is the composition so important?
+# why is the @color[GoldenRod](composition) so @color[IndianRed](important)?
 
 ---
 > How do we solve problems? 
