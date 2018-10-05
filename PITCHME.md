@@ -74,10 +74,9 @@
 
 ---
 ## side-effects
-## preiod
 
 ---
-## can't compose
+## it can't compose well
 ```scala
 val toS : Int => String = n => {
   appendAll("log.txt", "some content")
@@ -86,7 +85,7 @@ val toS : Int => String = n => {
 ```
 
 ---
-## can't compose
+## it can't compose well
 ```scala
 val list = collection.mutable.ListBuffer[Int]()
 
