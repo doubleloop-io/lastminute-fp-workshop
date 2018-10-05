@@ -37,7 +37,7 @@
 
 ---
 ## In one word
-## composition
+## @color[GoldenRod](composition)
 
 ---
 ## Functional Programming
