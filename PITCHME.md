@@ -47,8 +47,11 @@
 > we compose those pieces of code to create solutions to larger problems.
 
 ---
-> Decomposition wouldn’t make sense if we weren’t able to put the pieces back together. 
-> Bartosz Milewski
+> Decomposition wouldn’t make sense if we weren’t able to put the pieces back together. - Bartosz Milewski
+
+---
+## Composition
+This is where Functional Programming  mainly @color[GoldenRod](focuses on)
 
 ---
 ## Complex System
@@ -74,18 +77,8 @@ val toAndFrom: Int => Int =
 @[7-8](compose them)
 
 ---
-## Complex System
-developers regularly have to dedicate a significant portion of code and effort to such composition.
-
----
-## Composition
-This is where Functional Programming  mainly @color[GoldenRod](focuses on)
 
 chi e' il nemico numero uno della composizione? side effect
-
-
-
-
 
 
 
