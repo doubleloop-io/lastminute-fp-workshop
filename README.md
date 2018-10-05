@@ -1,7 +1,7 @@
 # lastminute-fp-workshop
 
 ### Presentation
-[Why pure functional programming?](https://gitpitch.com/doubleloop-io/lastminute-fp-workshop/presentation)
+[Why pure functional programming?](https://gitpitch.com/doubleloop-io/lastminute-fp-workshop/master)
 
 ### Tour of Scala
 [https://docs.scala-lang.org/tour/tour-of-scala.html](https://docs.scala-lang.org/tour/tour-of-scala.html)

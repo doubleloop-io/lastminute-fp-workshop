@@ -4,7 +4,7 @@
 ## before to jump on that...
 
 ---
-## What should we expect from a fp workshop?
+## What should we expect from a functional programming workshop?
 
 ---
 ## It's a bit like learning to program again
