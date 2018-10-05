@@ -70,8 +70,9 @@ val toAndFrom: Int => Int =
 ```
 
 ---
-## Complex System
-developers dedicate a significant portion of code and effort to such composition
+## In Complex System devs dedicate 
+## a significant portion of code 
+## and effort to such composition
 
 ---
 
