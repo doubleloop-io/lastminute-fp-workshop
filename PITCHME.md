@@ -144,12 +144,10 @@ functions get an @color[IndianRed](extraordinary quality) boost:
 - easier to @color[GoldenRod](test)
 
 ---
-## PS
+## @color[GoldenRod](pssss...)
 ### mathematicians do 
-### @color[GoldenRod](refactor their "code")
+### @color[IndianRed](refactor their "code")
 ### since long before us
 ```
-            
 x * (y + z) == (x * y) + (x * z)
-
 ```
