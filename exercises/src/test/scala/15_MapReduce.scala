@@ -17,18 +17,6 @@ object MapReduceTests extends SimpleTestSuite {
    * TODO: Implements mapReduce function.
    *       Use typeclasses and instances from cats library.
    *
-   * NOTE: in order to use cats we need to specify two imports
-   *       - type class (contract): cats.Functor, cats.Semigroup
-   *       - type class instance: cats.instances.list._, cats.instances.int._
-   *
-   *       For examble if you want concatenate two strings:
-   *
-   *       import cats.Semigroup
-   *       import cats.instances.string._
-   *
-   *       val result = Semigroup[String].combine("foo", "bar")
-   *
-   *
    * NOTE: the following type classes _can be_ useful
    *
    *       Semigroup: combine A

@@ -9,7 +9,6 @@ import minitest._
  * A MapReduce function is simply a combination of two parts:
  * - a map function: which performs data projection
  * - a reduce function: which performs a summary operation
- *
  */
 object MapReduceTests extends SimpleTestSuite {
 
