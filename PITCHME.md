@@ -13,9 +13,9 @@
 ## @color[GoldenRod](learn) to program @color[IndianRed](again)
 
 ---
-## do not judge 
+## @color[IndianRed](do not judge)
 ## what you will see 
-## with the eyes of 
+## @color[GoldenRod](with the eyes of)
 ## what you know today
 
 ---
