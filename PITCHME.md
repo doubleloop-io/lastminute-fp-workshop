@@ -48,17 +48,11 @@
 
 ---
 > Decomposition wouldn’t make sense if we weren’t able to put the pieces back together. 
-> - Bartosz Milewski
+> Bartosz Milewski
 
-
-
-
-
-
-
-
-
-
+---
+## Complex System
+developers dedicate a significant portion of code and effort to such composition
 
 ---
 ## Functional Programming
