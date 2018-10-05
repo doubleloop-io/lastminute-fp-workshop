@@ -18,10 +18,15 @@
 ## try to think how your life would have been different if we had always programmed like that
 
 ---
-## to do that we nead a place to experiment and fail spectacularly
+## We need a @color[GoldenRod](place) and @color[GoldenRod](time)
+## to @color[IndianRed](experiment) and @color[IndianRed](fail)
+## spectacularly
 
 ---
-## This workshop **is** that place
+## This workshop is that @color[GoldenRod](place)
+
+---
+## @color[GoldenRod](free) your @color[IndianRed](mind)
 
 ---
 ## let's get back to the starting point
