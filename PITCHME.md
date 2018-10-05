@@ -33,7 +33,8 @@
 ## @color[GoldenRod](free) your @color[IndianRed](mind)
 
 ---
-# Why functional programming?
+# @color[GoldenRod](Why)
+# functional programming?
 
 ---
 ## @color[GoldenRod](composition)
