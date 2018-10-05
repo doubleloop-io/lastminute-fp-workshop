@@ -12,16 +12,16 @@
 ## It's a bit like learning to program again
 
 ---
-## to do that we nead a place to experiment and fail spectacularly
-
----
-## This workshop **is** that place
-
----
 ## try to do not judge what you will see with the eyes of what you know today
 
 ---
 ## try to think how your life would have been different if we had always programmed like that
+
+---
+## to do that we nead a place to experiment and fail spectacularly
+
+---
+## This workshop **is** that place
 
 ---
 ## let's get back to the starting point
