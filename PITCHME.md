@@ -28,10 +28,37 @@
 # Why functional programming?
 
 ---
-> And how do we solve problems? We decompose bigger problems into smaller problems. If the smaller problems are still too big, we decompose them further, and so on. Finally, we write code that solves all the small problems.
-> And then comes the essence of programming: we compose those pieces of code to create solutions to larger problems. 
-> Decomposition wouldn’t make sense if we weren’t able to put the pieces back together.
+## In one word
+## composition
+
+---
+# why is the composition so important?
+
+---
+# I want to answer by quoting Bartosz Milewski
+
+---
+> How do we solve problems? We decompose bigger problems into smaller problems. If the smaller problems are still too big, we decompose them further, and so on.
+
+---
+> Finally, we write code that solves all the small problems.
+
+---
+> And then comes the essence of programming: we compose those pieces of code to create solutions to larger problems.
+
+---
+> Decomposition wouldn’t make sense if we weren’t able to put the pieces back together. 
 > - Bartosz Milewski
+
+
+
+
+
+
+
+
+
+
 
 ---
 ## Functional Programming
@@ -52,7 +79,26 @@ val toAndFrom: Int => Int =
 @[4-5](from String to Int)
 @[7-8](compose them)
 
---- 
+---
+## Complex System
+developers regularly have to dedicate a significant portion of code and effort to such composition.
+
+---
+## Composition
+This is where Functional Programming  mainly @color[GoldenRod](focuses on)
+
+chi e' il nemico numero uno della composizione? side effect
+
+
+
+
+
+
+
+
+
+
+
 
 
 
