@@ -19,7 +19,10 @@
 ## what you know today
 
 ---
-## try to think how your life would have been different if we had always programmed like that
+## think how your life 
+## would have been different 
+## if we had always 
+## programmed like that
 
 ---
 ## We need a @color[GoldenRod](place) and @color[GoldenRod](time)
