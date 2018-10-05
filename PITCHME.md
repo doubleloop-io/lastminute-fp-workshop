@@ -1,10 +1,11 @@
-# Why functional programming?
+# Why @color[GoldenRod](functional programming)?
 
 ---
 ## before to jump on that...
 
 ---
-## What should we expect from a functional programming workshop?
+## What should we @color[IndianRed](expect)
+## from a fp workshop?
 
 ---
 ## It's a bit like learning to program again
@@ -122,12 +123,12 @@ the program's behavior
 ## Referential Transparency
 it means these two programs yield the @color[GoldenRod](same result)
 ```scala
-val x = foo(42)
-val y = x + x
+val y = foo(x)
+val z = y + y
 ```
 
 ```scala
-val y = foo(42) + foo(42)
+val z = foo(x) + foo(x)
 ```
 
 ---
