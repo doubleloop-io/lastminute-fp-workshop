@@ -41,7 +41,7 @@
 
 ---
 ## Functional Programming
-@color[GoldenRod](compose functions) as a central<br />
+@color[GoldenRod](composing functions) as a central<br />
 building block to write software
 
 ---
