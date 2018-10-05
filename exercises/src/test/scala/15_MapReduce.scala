@@ -17,19 +17,13 @@ object MapReduceTests extends SimpleTestSuite {
    * TODO: Implements mapReduce function.
    *       Use typeclasses and instances from cats library.
    *
-   * NOTE: the following type classes _can be_ useful
+   * NOTE: the following type classes _can be_ useful:
    *
-   *       Semigroup: combine A
-   *       https://typelevel.org/cats/api/cats/kernel/Semigroup.html
-   *
-   *       Monoid: combine and produce empty A
-   *       https://typelevel.org/cats/api/cats/kernel/Monoid.html
-   *
-   *       Functor: map over F[_]
-   *       https://typelevel.org/cats/api/cats/Functor.html
-   *
-   *       Foldable: fold(Left|Right) over F[_]
-   *       https://typelevel.org/cats/api/cats/Foldable.html
+   *       - Semigroup: https://typelevel.org/cats/api/cats/kernel/Semigroup.html
+   *       - Monoid: https://typelevel.org/cats/api/cats/kernel/Monoid.html
+   *       - Functor: https://typelevel.org/cats/api/cats/Functor.html
+   *       - Foldable: https://typelevel.org/cats/api/cats/Foldable.html
+   *       - Traverse: https://typelevel.org/cats/api/cats/Traverse.html
    */
 
   def mapReduce[F[_], A, B](fa: F[A])(f: A => B): B =

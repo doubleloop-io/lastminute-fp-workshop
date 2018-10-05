@@ -12,17 +12,15 @@ import minitest._
  */
 object MapReduceTests extends SimpleTestSuite {
 
-  import cats.{Foldable, Functor, Monoid}
-  import cats.instances.list._
-  import cats.instances.int._
-  import cats.instances.option._
+  import cats.{Monoid, Traverse}
 
-  def mapReduce[F[_]: Functor: Foldable, A, B: Monoid](fa: F[A])(f: A => B): B = {
-    val fb = Functor[F].map(fa)(f)
-    Foldable[F].foldLeft(fb, Monoid[B].empty)(Monoid[B].combine)
-  }
+  def mapReduce[F[_]: Traverse, A, B: Monoid](fa: F[A])(f: A => B): B =
+    Traverse[F].foldMap(fa)(f)
 
   test("order total price") {
+    import cats.instances.list._
+    import cats.instances.int._
+
     case class Order(lines: List[OrderLine]) {
       def total: Int = mapReduce(lines)(l => l.price)
     }
@@ -34,6 +32,10 @@ object MapReduceTests extends SimpleTestSuite {
   }
 
   test("major students") {
+    import cats.instances.list._
+    import cats.instances.int._
+    import cats.instances.option._
+
     case class Classroom(students: List[Student]) {
       def majorCount: Int =
         mapReduce(students)(s => if (s.age >= 18) Option(1) else None)
