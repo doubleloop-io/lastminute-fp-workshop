@@ -57,17 +57,6 @@
 ## Functional Programming
 @color[GoldenRod](compose functions) as a central<br />
 building block to write software
-<br /><br />
-```scala
-val toS: Int => String = 
-  n => n.toString
-
-val fromS: String => Int = 
-  s => s.length
-
-val toAndFrom: Int => Int = 
-  fromS compose toS
-```
 
 ---
 ## True Story
@@ -76,28 +65,13 @@ val toAndFrom: Int => Int =
 ### and effort to such composition
 
 ---
-
-chi e' il nemico numero uno della composizione? side effect
-
-
-
-
-
-
-
-
-
-
+## who is the number one enemy of the composition?
 
 ---
-## Functional Programming
-the term “function” refer to the @color[IndianRed](mathematical) one:
-- @color[GoldenRod](Total): it must yield a value for every possible input
-- @color[GoldenRod](Deterministic): it must yield the same value for the same input
-- @color[GoldenRod](Pure): it’s only effect must be the computation of its return value
+## side-effects
 
 ---
-## This is not valid
+## Hard composition
 ```scala
 val toS : Int => String = n => {
   appendAll("log.txt", "some content")
@@ -106,7 +80,7 @@ val toS : Int => String = n => {
 ```
 
 ---
-## Nor even this
+## Even this
 ```scala
 val list = collection.mutable.ListBuffer[Int]()
 
@@ -118,26 +92,21 @@ val toS : Int => String = n => {
 ```
 
 ---
-## In other words
-FP is about @color[IndianRed](eliminating) or @color[GoldenRod](controlling) side-effects
-```scala
-// pure (function w/out side-effect)
-val f: A => B = ...
-
-// effectful (function w/ controlled side-effect)
-val g: A => F[B] = ...
-```
-
----
-## It's a @color[IndianRed](huge) constraint
-## why @color[GoldenRod](embrace) it?
-
----
 ## Side-effects are a @color[IndianRed](complexity source)
 - hide inputs and outputs
 - destroy testability
 - destroy composability
 
+---
+## In other words
+FP is about @color[IndianRed](eliminating) or @color[GoldenRod](controlling) side-effects
+
+---
+## Functional Programming
+the term “function” refer to the @color[IndianRed](mathematical) one:
+- @color[GoldenRod](Total): it must yield a value for every possible input
+- @color[GoldenRod](Deterministic): it must yield the same value for the same input
+- @color[GoldenRod](Pure): it’s only effect must be the computation of its return value
 
 ---
 ## We earn back
