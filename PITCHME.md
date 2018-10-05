@@ -140,3 +140,10 @@ functions get an @color[IndianRed](extraordinary quality) boost:
 - easier to @color[GoldenRod](compose)
 - easier to @color[GoldenRod](refactor)
 - easier to @color[GoldenRod](test)
+
+---
+## closing - Distributive property
+mathematicians do refactor the "code" since long before us
+```
+x * (y + z) == (x * y) + (x * z)
+```
