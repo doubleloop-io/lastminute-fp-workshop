@@ -28,13 +28,9 @@
 ## take this workashop as
 ## a @color[GoldenRod](place) and @color[GoldenRod](time)
 ## to @color[IndianRed](experiment) and @color[IndianRed](fail)
-## spectacularly
 
 ---
 ## @color[GoldenRod](free) your @color[IndianRed](mind)
-
----
-## let's get back to the starting point
 
 ---
 # Why functional programming?
