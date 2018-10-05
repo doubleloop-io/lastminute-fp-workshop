@@ -28,7 +28,9 @@
 # Why functional programming?
 
 ---
-> And how do we solve problems? We decompose bigger problems into smaller problems. If the smaller problems are still too big, we decompose them further, and so on. Finally, we write code that solves all the small problems. And then comes the essence of programming: we compose those pieces of code to create solutions to larger problems. Decomposition wouldn’t make sense if we weren’t able to put the pieces back together.
+> And how do we solve problems? We decompose bigger problems into smaller problems. If the smaller problems are still too big, we decompose them further, and so on. Finally, we write code that solves all the small problems.
+> And then comes the essence of programming: we compose those pieces of code to create solutions to larger problems. 
+> Decomposition wouldn’t make sense if we weren’t able to put the pieces back together.
 > - Bartosz Milewski
 
 ---
