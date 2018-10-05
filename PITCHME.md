@@ -74,7 +74,7 @@ building block to write software
 ## side-effects
 
 ---
-## can't composition
+## can't compose
 ```scala
 val toS : Int => String = n => {
   appendAll("log.txt", "some content")
@@ -83,7 +83,7 @@ val toS : Int => String = n => {
 ```
 
 ---
-## Even this
+## can't compose
 ```scala
 val list = collection.mutable.ListBuffer[Int]()
 
