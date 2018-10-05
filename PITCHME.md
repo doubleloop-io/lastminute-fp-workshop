@@ -65,8 +65,8 @@
 ---
 ## True Story
 ### In Complex System devs dedicate 
-### a significant portion of code 
-### and effort to such composition
+### a significant portion of code and effort 
+### to such composition
 
 ---
 ## who is the number one enemy of the composition?
