@@ -64,9 +64,10 @@
 
 ---
 ## True Story
-### In Complex System we dedicate a significant 
-### portion of code and effort 
-### to such composition
+### In Complex System we dedicate 
+### @color[IndianRed](a significant portion)
+### of code and effort 
+### @color[GoldenRod](to such composition)
 
 ---
 ## who is the number one enemy of the composition?
