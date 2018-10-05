@@ -136,7 +136,7 @@ val z = foo(x) + foo(x)
 ```
 
 ---
-## Referential Transparency Benefits
+## RT Benefits
 functions get an @color[IndianRed](extraordinary quality) boost:
 - easier to @color[GoldenRod](reason)
 - easier to @color[GoldenRod](compose)
@@ -145,8 +145,8 @@ functions get an @color[IndianRed](extraordinary quality) boost:
 
 ---
 ## PS
-mathematicians do refactor the "code"<br />
-since long before us
+### mathematicians do refactor the "code"
+### since long before us
 ```
             x * (y + z) == (x * y) + (x * z)
 ```
