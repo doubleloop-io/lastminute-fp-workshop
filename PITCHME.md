@@ -145,7 +145,7 @@ functions get an @color[IndianRed](extraordinary quality) boost:
 
 ---
 ## PS
-### mathematicians do refactor the "code"
+### mathematicians do refactor their "code"
 ### since long before us
 ```
             x * (y + z) == (x * y) + (x * z)
