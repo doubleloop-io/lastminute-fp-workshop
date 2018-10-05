@@ -40,6 +40,11 @@
 ## composition
 
 ---
+## Functional Programming
+@color[GoldenRod](compose functions) as a central<br />
+building block to write software
+
+---
 # why is the composition so important?
 
 ---
@@ -56,15 +61,6 @@
 
 ---
 > Decomposition wouldn’t make sense if we weren’t able to put the pieces back together. - Bartosz Milewski
-
----
-## Composition is where FP
-## mainly @color[GoldenRod](focuses on)
-
----
-## Functional Programming
-@color[GoldenRod](compose functions) as a central<br />
-building block to write software
 
 ---
 ## True Story
