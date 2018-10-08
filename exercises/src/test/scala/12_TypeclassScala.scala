@@ -15,6 +15,7 @@ import minitest._
  * - interface object
  * - interface syntax
  */
+
 object TypeclassScalaTests extends SimpleTestSuite {
 
   /*

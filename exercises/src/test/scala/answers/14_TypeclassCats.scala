@@ -22,6 +22,7 @@ import minitest._
  *
  * val result = Semigroup[String].combine("foo", "bar")
  */
+ 
 object TypeclassCatsTests extends SimpleTestSuite {
 
   case class Box[A](value: A)

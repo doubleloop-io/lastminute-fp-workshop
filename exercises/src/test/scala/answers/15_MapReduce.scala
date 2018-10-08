@@ -10,6 +10,7 @@ import minitest._
  * - a map function: which performs data projection
  * - a reduce function: which performs a summary operation
  */
+
 object MapReduceTests extends SimpleTestSuite {
 
   import cats.{Monoid, Traverse}

@@ -31,6 +31,7 @@ import minitest._
  * It's similar to the idea of High-Order Functions
  * aka function that accepts/returns other functions.
  */
+ 
 object TypeclassHKTests extends SimpleTestSuite {
 
   trait Stack[F[_]] {
