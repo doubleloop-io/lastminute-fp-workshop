@@ -26,7 +26,6 @@ object MapTests extends SimpleTestSuite {
   /*
    * TODO: Implements toiTry function.
    *       Use the Try effect instead of throws.
-   *       After that implement ignored tests.
    */
 
   import scala.util.{Failure, Success, Try}
@@ -48,7 +47,6 @@ object MapTests extends SimpleTestSuite {
     n => n.toString
 
   test("chain one function") {
-    ignore("use toiTry instead of toi")
     val program: String => Int =
       toi.andThen(dec)
 
@@ -57,7 +55,6 @@ object MapTests extends SimpleTestSuite {
   }
 
   test("chain two functions") {
-    ignore("use toiTry instead of toi")
     val program: String => String =
       toi.andThen(dec).andThen(tos)
 
@@ -66,7 +63,6 @@ object MapTests extends SimpleTestSuite {
   }
 
   test("fail") {
-    ignore("use toiTry instead of toi")
     val program: String => String =
       toi.andThen(dec).andThen(tos)
 

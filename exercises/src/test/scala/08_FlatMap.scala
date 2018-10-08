@@ -26,7 +26,6 @@ object FlatMapTests extends SimpleTestSuite {
   /*
    * TODO: Implements divTry function.
    *       Use the Try effect instead of throws.
-   *       After that implement ignored tests.
    */
 
   import scala.util.{Failure, Success, Try}
@@ -62,7 +61,6 @@ object FlatMapTests extends SimpleTestSuite {
   }
 
   test("chain mix pure and effectful functions") {
-    ignore("use divTry insted of div")
     val program: String => Try[String] =
       s => toi(s).map(dec).map(div).map(tos)
 
@@ -71,7 +69,6 @@ object FlatMapTests extends SimpleTestSuite {
   }
 
   test("fail safe - on first operaton") {
-    ignore("use divTry insted of div")
     val program: String => Try[String] =
       s => toi(s).map(dec).map(div).map(tos)
 
@@ -80,7 +77,6 @@ object FlatMapTests extends SimpleTestSuite {
   }
 
   test("fail safe - on the middle operation") {
-    ignore("use divTry insted of div")
     val program: String => Try[String] =
       s => toi(s).map(dec).map(div).map(tos)
 
