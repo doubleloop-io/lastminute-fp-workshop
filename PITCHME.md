@@ -2,7 +2,7 @@
 # functional programming?
 
 ---
-## before to jump on that...
+## before we jump to that...
 
 ---
 ## What should we @color[IndianRed](expect)
@@ -10,19 +10,13 @@
 
 ---
 ## It's a bit like 
-## @color[GoldenRod](learn) to program @color[IndianRed](again)
+## @color[GoldenRod](learning) to program @color[IndianRed](again)
 
 ---
 ## @color[IndianRed](do not judge)
 ## what you will see 
 ## @color[GoldenRod](with the eyes of)
 ## what you know today
-
----
-## @color[GoldenRod](think how your life)
-## would have been different 
-## @color[IndianRed](if we had always)
-## programmed like that
 
 ---
 ## take this workashop as
@@ -45,7 +39,7 @@
 ### building block to write software
 
 ---
-# why is the @color[GoldenRod](composition) so @color[IndianRed](important)?
+# why @color[GoldenRod](composition) is so @color[IndianRed](important)?
 
 ---
 > How do we solve problems? 
@@ -67,7 +61,7 @@
 ### In Complex System we dedicate 
 ### @color[IndianRed](a significant portion)
 ### of code and effort 
-### @color[GoldenRod](to such composition)
+### @color[GoldenRod](to compose) pieces togheter
 
 ---
 ## @color[GoldenRod](who) is the number one @color[IndianRed](enemy) of composition?
