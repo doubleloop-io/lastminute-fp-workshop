@@ -26,7 +26,7 @@ object ScalaRecap extends SimpleTestSuite {
    */
 
   test("define case class") {
-    ignore("define a case class w/ two fiel: name and age")
+    ignore("define a case class w/ two fields: name and age")
     // val result = Person("foo", 56)
     // assertEquals(result, Person("foo", 56))
   }
