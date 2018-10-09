@@ -45,7 +45,6 @@ object ModelData extends SimpleTestSuite {
    *       a standard Italian 40-card deck, divided into four suits: Cups, Golds, Swords, Clubs.
    *       The values on the cards range numerically from one through seven,
    *       plus three face cards in each suit: Knight (worth 8), Queent (worth 9) and King (worth 10).
-   *       All players arrange themselves around the playing surface.
    *       Each player receives three cards. The dealer will also place four cards face up on the table.
    *
    * ADD YOUR CODE HERE INSIDE THE OBJECT
