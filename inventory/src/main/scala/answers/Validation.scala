@@ -20,6 +20,7 @@ object Validation {
       case EmptyString(fieldName)               => s"The $fieldName cannot be empty."
       case InvalidCharsString(fieldName, value) => s"The $fieldName cannot contain special characters: $value."
       case NegativeNumber(fieldName, value)     => s"The $fieldName cannot be negative: $value."
+      case NotTrue(fieldName)                   => s"The $fieldName cannot be false."
     }
   }
 

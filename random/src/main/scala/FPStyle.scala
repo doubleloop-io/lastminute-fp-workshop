@@ -88,7 +88,7 @@ object FPStyle {
   def test[A](ga: Generator[A], count: Int = 100)(
       predicate: A => Boolean
   ): Unit = {
-    for (i <- 1 until count) {
+    for (_ <- 1 until count) {
       val value  = ga.run()
       val result = predicate(value)
       assert(result, "test failed for " + value)
