@@ -7,7 +7,7 @@ addCommandAlias("p", "project")
 lazy val global = project
   .in(file("."))
   .settings(settings)
-  .aggregate(exercises, marsroverkata)
+  .aggregate(exercises, marsroverkata, random)
 
 lazy val exercises = project
   .settings(
@@ -18,6 +18,12 @@ lazy val exercises = project
 lazy val marsroverkata = project
   .settings(
     name := "marsroverkata",
+    settings
+  )
+
+lazy val random = project
+  .settings(
+    name := "random",
     settings
   )
 
