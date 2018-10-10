@@ -23,15 +23,15 @@ object MonadErrorTests extends SimpleTestSuite {
     def apply[F[_]](implicit T: Throwing[F]): Throwing[F] = T
   }
 
-  def compute[F[_]: Throwing](magicValue: Int): F[Int] = 
-    if (magicValue > 0)  ???
+  def compute[F[_]: Throwing](magicValue: Int): F[Int] =
+    if (magicValue > 0) ???
     else ???
 
   test("MonadError - Either") {
     import cats.data._
     type ThrowableOr[A] = EitherT[Id, Throwable, A]
 
-ignore("implements compute and then remove me")
+    ignore("implements compute and then remove me")
     val value = compute[ThrowableOr](-10)
 
     value.getOrElse(42); ()
@@ -40,7 +40,7 @@ ignore("implements compute and then remove me")
   test("MonadError - IO") {
     import cats.effect._
 
-ignore("implements compute and then remove me")
+    ignore("implements compute and then remove me")
     val value = compute[IO](-10)
 
     intercept[Exception] {
