@@ -14,7 +14,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "E:3,3"
@@ -30,7 +30,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "W:4,4"
@@ -46,7 +46,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "W:0,1"
@@ -62,7 +62,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "N:3,5"
@@ -78,7 +78,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "N:7,5"
@@ -94,7 +94,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "E:0,0"
@@ -110,7 +110,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "S:0,0"
@@ -126,7 +126,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "W:0,0"
@@ -142,7 +142,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "N:0,0"
@@ -158,7 +158,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "W:0,0"
@@ -174,7 +174,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "S:0,0"
@@ -190,7 +190,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "E:0,0"
@@ -206,7 +206,7 @@ object GameTests extends SimpleTestSuite {
     val expected = outputs(
       "Welcome to the Mars Rover Kata!",
       "What is the size of the planet?",
-      "Where are obstacles?",
+      "Where are the obstacles?",
       "What is the position of the rover?",
       "Waiting commands...",
       "N:0,0"
