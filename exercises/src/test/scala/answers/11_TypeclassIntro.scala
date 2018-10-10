@@ -16,7 +16,7 @@ import minitest._
  * The final payoff is that thanks to them we can write more
  * generic/abstract logic and reuse it for different types.
  */
- 
+
 object TypeclassIntroTests extends SimpleTestSuite {
 
   object Concrete {
