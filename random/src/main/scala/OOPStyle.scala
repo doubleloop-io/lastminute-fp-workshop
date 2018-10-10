@@ -1,4 +1,4 @@
-package day2.random
+package random
 
 object OOPStyle {
 
